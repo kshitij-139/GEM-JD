@@ -1,0 +1,43 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+*.sqlite3
+
+# --- Environment ---
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# --- Config & Secrets ---
+config.toml
+*.json
+*.yaml
+*.yml
+
+# --- Streamlit Cache & Logs ---
+.streamlit/
+.cache/
+**/.DS_Store
+
+# --- IDE / Editor files ---
+.vscode/
+.idea/
+*.iml
+
+# --- OS generated files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Temporary files ---
+*.tmp
+*.bak
+*.swp
+*.lock
