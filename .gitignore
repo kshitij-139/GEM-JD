@@ -7,7 +7,7 @@ __pycache__/
 *.log
 *.sqlite3
 
-# --- Environment ---
+# --- Virtual Environments ---
 .env
 .venv/
 venv/
@@ -15,13 +15,13 @@ ENV/
 env/
 *.env
 
-# --- Config & Secrets ---
+# --- API Keys / Config ---
 config.toml
 *.json
 *.yaml
 *.yml
 
-# --- Streamlit Cache & Logs ---
+# --- Streamlit ---
 .streamlit/
 .cache/
 **/.DS_Store
@@ -36,7 +36,7 @@ config.toml
 Thumbs.db
 desktop.ini
 
-# --- Temporary files ---
+# --- Temp or Backup Files ---
 *.tmp
 *.bak
 *.swp
